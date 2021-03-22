@@ -75,9 +75,9 @@
     display: none;
   }
   .main-nav {
-    float: left;
+    float: right;
     margin-top: 25px;
-    margin-left: 25px;
+    margin-right: 25px;
   }
   .main-nav li {
     display: block;
@@ -90,7 +90,7 @@
     font-size: 130%;
   }
   .mobile-nav-icon {
-    display: inline-block;
+    display: block;
   }
   .sticky {
     position: fixed;
@@ -158,5 +158,16 @@
 @media only screen and (max-width: 480px) {
   section {
     padding: 25px 0;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .hero-text-box {
+    position: absolute;
+
+    top: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 }
