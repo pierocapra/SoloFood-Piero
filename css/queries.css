@@ -159,6 +159,9 @@
   section {
     padding: 25px 0;
   }
+  header {
+    background-image: url("/OmnifoodContents/hero-smaller.jpg");
+  }
 }
 
 @media only screen and (max-width: 400px) {
