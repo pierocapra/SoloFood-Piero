@@ -161,8 +161,12 @@
   }
   header {
     background-image: url("/OmnifoodContents/hero-smaller.jpg");
+
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
     background-size: cover;
-    height: 50vh;
+    background-attachment: fixed;
   }
 }
 
