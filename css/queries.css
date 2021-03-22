@@ -127,11 +127,13 @@
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
+    -webkit-background-attachment: fixed;
     overflow: hidden;
   }
   .section-4 {
-    background-attachment: scroll;
+    background-attachment: fixed;
+    -webkit-background-attachment: fixed;
     overflow: hidden;
   }
 
