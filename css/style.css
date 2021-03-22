@@ -144,7 +144,6 @@ a:active {
   color: #555;
 }
 header {
-  background-image: url("/OmnifoodContents/hero-min.jpg");
   background-image: url("/OmnifoodContents/hero.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
